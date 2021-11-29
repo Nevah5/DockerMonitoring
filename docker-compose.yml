@@ -1,0 +1,30 @@
+version: "3.3"
+networks:
+  chk:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.10.100.0/24
+services:
+    checkmk:
+      build:
+        context: .
+        dockerfile: ./checkmk/Dockerfile
+      # image: checkmk/check-mk-raw:2.0.0-latest
+      networks:
+        chk:
+          ipv4_address: 192.10.100.2
+      ports:
+        - 8080:5000
+    postgres:
+        build:
+          context: .
+          dockerfile: ./postgres/Dockerfile
+        networks:
+          chk:
+            ipv4_address: 192.10.100.3
+        environment:
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: 12345
+        ports:
+          - 5432:5432
