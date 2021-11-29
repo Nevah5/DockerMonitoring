@@ -9,7 +9,7 @@ services:
     checkmk:
       build:
         context: .
-        dockerfile: ./checkmk/Dockerfile
+        dockerfile: ./.docker/checkmk/Dockerfile
       # image: checkmk/check-mk-raw:2.0.0-latest
       networks:
         chk:
@@ -19,7 +19,7 @@ services:
     postgres:
         build:
           context: .
-          dockerfile: ./postgres/Dockerfile
+          dockerfile: ./.docker/postgres/Dockerfile
         # image: postgres:9.6.2-alpine
         networks:
           chk:

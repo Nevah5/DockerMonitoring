@@ -1,4 +1,4 @@
-FROM postgres:9.6.2-alpine
+FROM postgres:9.6.2-alpine AS postgres
 
 RUN apk update                                                                                    \
   apk add dpkg                                                                                    \
