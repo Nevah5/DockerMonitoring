@@ -29,3 +29,11 @@ services:
             POSTGRES_PASSWORD: 12345
         ports:
           - 5432:5432
+    client:
+        build:
+          context: .
+          dockerfile: ./.docker/client/Dockerfile
+        # image: postgres:9.6.2-alpine
+        networks:
+          chk:
+            ipv4_address: 192.10.100.4
