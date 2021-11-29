@@ -20,6 +20,7 @@ services:
         build:
           context: .
           dockerfile: ./postgres/Dockerfile
+        # image: postgres:9.6.2-alpine
         networks:
           chk:
             ipv4_address: 192.10.100.3
