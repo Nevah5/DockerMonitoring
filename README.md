@@ -26,12 +26,17 @@ Postgres:<br>
 - run `docker ps` to see active docker containers
 - copy container ID
 - run `docker exec -it <id> bash` (replace "\<id>" with container ID)
+
+### Database access
+- do the above with postgres
+- run `psql -U admin`
+- enter password
 --------------------------
 ### IPv4 list of containers
-|Name|IPv4|Ports|
-|-|-|-|
-|Checkmk|192.10.100.2|8080 (Webserver) & 5000 (internal)|
-|Postgres|192.10.100.3|5432|
-|Client (Ubuntu)|192.10.100.4|-|
+|Name|Hostname|IPv4|Ports|Function|
+|-|-|-|-|-|
+|Checkmk|checkmk|192.10.100.2|8080 & 5000|Monitoring|
+|Postgres|postgres|192.10.100.3|5432|Database|
+|Adminer|adminer|192.10.100.4|8000 & 7071|Client Database Interface|
 
 --------------------------

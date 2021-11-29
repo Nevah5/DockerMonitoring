@@ -11,6 +11,7 @@ services:
         context: .
         dockerfile: ./.docker/checkmk/Dockerfile
       # image: checkmk/check-mk-raw:2.0.0-latest
+      hostname: checkmk
       networks:
         chk:
           ipv4_address: 192.10.100.2
@@ -21,6 +22,7 @@ services:
           context: .
           dockerfile: ./.docker/postgres/Dockerfile
         # image: postgres:9.6.2-alpine
+        hostname: postgres
         networks:
           chk:
             ipv4_address: 192.10.100.3
@@ -29,11 +31,12 @@ services:
             POSTGRES_PASSWORD: 12345
         ports:
           - 5432:5432
-    client:
-        build:
-          context: .
-          dockerfile: ./.docker/client/Dockerfile
-        # image: postgres:9.6.2-alpine
+    adminer:
+        image: adminer
+        hostname: adminer
+        restart: always
         networks:
           chk:
             ipv4_address: 192.10.100.4
+        ports:
+            - '8000:7071'
