@@ -32,7 +32,10 @@ services:
         ports:
           - 5432:5432
     adminer:
-        image: adminer
+        # image: adminer
+        build:
+          context: .
+          dockerfile: ./.docker/adminer/Dockerfile
         hostname: adminer
         restart: always
         networks:
