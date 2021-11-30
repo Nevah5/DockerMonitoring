@@ -39,4 +39,4 @@ services:
           chk:
             ipv4_address: 192.10.100.4
         ports:
-            - '8000:7071'
+            - '8081:8080'
