@@ -38,9 +38,11 @@ Postgres:<br>
 - run `docker exec -it <id> bash` (replace "\<id>" with container ID) or instead of id use `checkmk_<hostname>_1`
 
 ### Database access
-- do the above with postgres
-- run `psql -U admin`
-- enter password
+- go on site `localhost:8081`
+- server: `192.10.100.3`
+- username: `admin`
+- password: `12345`
+- databse: `<empty>`
 --------------------------
 ### IPv4 list of containers
 |Name|Hostname|IPv4|Ports|Function|
