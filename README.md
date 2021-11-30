@@ -44,9 +44,10 @@ Postgres:<br>
 - password: `12345`
 - databse: `<empty>`
 --------------------------
-### IPv4 list of containers
+### Network Diagram
 |Name|Hostname|IPv4|Ports|Function|
 |-|-|-|-|-|
 |Checkmk|checkmk|192.10.100.2|8080 & 5000|Monitoring|
 |Postgres|postgres|192.10.100.3|5432|Database|
-|Adminer|adminer|192.10.100.4|8081 & 8080|Client Database Interface|
+|Adminer|adminer|192.10.100.4|8081 & 8080|User Interface|
+|Host System|localhost|127.0.0.1|6556|Client System|
