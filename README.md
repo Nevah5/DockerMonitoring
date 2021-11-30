@@ -7,8 +7,10 @@
 ```
 docker-compose -f "docker-compose.yml" up -d --build
 ```
+or open folder in VSC, (if you have docker extension) right click on `docker-compose.yml` and click `Compose Restart`
+
 -------------------------
-### Add postgres to monitoring
+### Add Host System to monitoring
 - "Setup" > "Hosts" > "Add hosts to the monitoring"
 - Hostname -> `checkmk_postgres_1`
 - "Save & go to service configuration"
