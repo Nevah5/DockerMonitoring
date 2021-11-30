@@ -48,5 +48,3 @@ Postgres:<br>
 |Checkmk|checkmk|192.10.100.2|8080 & 5000|Monitoring|
 |Postgres|postgres|192.10.100.3|5432|Database|
 |Adminer|adminer|192.10.100.4|8000 & 7071|Client Database Interface|
-
---------------------------
