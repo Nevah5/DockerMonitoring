@@ -11,12 +11,20 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 
 -------------------------
 ### Add Host System to monitoring
-- "Setup" > "Hosts" > "Add hosts to the monitoring"
-- Hostname -> `checkmk_postgres_1`
-- "Save & go to service configuration"
-- wait for scan
-- click on "X Changes" on top right
-- "Acitvate on selected sites"
+- "Setup"<br>
+- "Hosts"<br>
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/1.png">
+- "Add hosts to the monitoring"<br>
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/2.png">
+- Hostname -> `localhost`<br>
+- "Save & go to service configuration"<br>
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/3.png">
+- Add every service<br>
+- Click on Changes in top right<br>
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/4.png">
+- "Activate on selected sites"<br>
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/5.png">
+
 --------------------------
 ### Default Access
 Postgres:<br>
