@@ -35,7 +35,7 @@ Postgres:<br>
 ### Bash access
 - run `docker ps` to see active docker containers
 - copy container ID
-- run `docker exec -it <id> bash` (replace "\<id>" with container ID)
+- run `docker exec -it <id> bash` (replace "\<id>" with container ID) or instead of id use `checkmk_<hostname>_1`
 
 ### Database access
 - do the above with postgres
