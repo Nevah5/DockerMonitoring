@@ -13,16 +13,27 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 ### Add Host System to monitoring
 + "Setup"
 + "Hosts"
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/1.png">
+
 + "Add hosts to the monitoring"
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/2.png">
+
 + Hostname -> `localhost`
+
 + "Save & go to service configuration"
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/3.png">
+
 + Add every service
+
 + Click on Changes in top right
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/4.png">
+
 + "Activate on selected sites"
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/5.png">
 
 --------------------------
