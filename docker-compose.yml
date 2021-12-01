@@ -26,9 +26,6 @@ services:
         networks:
           chk:
             ipv4_address: 192.10.100.3
-        environment:
-            POSTGRES_USER: admin
-            POSTGRES_PASSWORD: 12345
         ports:
           - 5432:5432
     adminer:

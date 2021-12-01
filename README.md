@@ -26,12 +26,6 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/5.png">
 
 --------------------------
-### Default Access
-Postgres:<br>
-`admin`<br>
-`12345`<br>
-
---------------------------
 ### Bash access
 - run `docker ps` to see active docker containers
 - copy container ID
@@ -40,8 +34,8 @@ Postgres:<br>
 ### Database access
 - go on site `localhost:8081`
 - server: `192.10.100.3`
-- username: `admin`
-- password: `12345`
+- username: `postgres`
+- password: `<empty>`
 - databse: `<empty>`
 --------------------------
 ### Network Diagram
