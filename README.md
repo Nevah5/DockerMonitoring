@@ -40,7 +40,9 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 ### Monitor Postgres Database with this container
 + Make sure you downloaded [psql] on **default location** (version 14.1 as of current time)
 + Only install the Command Line Tools!
+
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/6.png" alt="This option here!">
+
 + Make sure your host system has the Windows agent installed under **default location** (should be `C:\ProgramData\checkmk\`), you can find and download the installer under `localhost:8080` when the container is running, in `Setup > Agents > Windows > .msi`
 + download [this python script] at `C:\ProgramData\checkmk\agent\plugins\mk_postgres.py`
 + make sure you have [python] installed und run this script in a console opened at the directory this script is saved with `my_postgres.py`
