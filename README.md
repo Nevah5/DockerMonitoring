@@ -11,24 +11,24 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 
 -------------------------
 ### Add Host System to monitoring
-+ "Setup"<br>
-+ "Hosts"<br>
++ "Setup"
++ "Hosts"
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/1.png">
-+ "Add hosts to the monitoring"<br>
++ "Add hosts to the monitoring"
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/2.png">
-+ Hostname -> `localhost`<br>
-+ "Save & go to service configuration"<br>
++ Hostname -> `localhost`
++ "Save & go to service configuration"
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/3.png">
-+ Add every service<br>
-+ Click on Changes in top right<br>
++ Add every service
++ Click on Changes in top right
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/4.png">
-+ "Activate on selected sites"<br>
++ "Activate on selected sites"
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/5.png">
 
 --------------------------
 ### Monitor Postgres Database with this container
 + Make sure you downloaded [psql] on **default location** (version 14.1 as of current time)
-+ Only install the Command Line Tools!<br>
++ Only install the Command Line Tools!
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/6.png" alt="This option here!">
 + Make sure your host system has the Windows agent installed under **default location** (should be `C:\ProgramData\checkmk\`), you can find and download the installer under `localhost:8080` when the container is running, in `Setup > Agents > Windows > .msi`
 + download [this python script] at `C:\ProgramData\checkmk\agent\plugins\mk_postgres.py`
