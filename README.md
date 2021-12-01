@@ -37,6 +37,22 @@ or open folder in VSC, (if you have docker extension) right click on `docker-com
 <img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/5.png">
 
 --------------------------
+### Add a monitoring rule for postgres
++ "Setup"
++ "Services"
++ "Service Monitoring rules"
++ <kbd>CTRL</kbd> + <kbd>F</kbd> "PostgreSQL Database Statistics"
++ Select this option
++ "Create Rule in Folder: Main directory"
++ Set "postgres" as description
++ Under Value enable every option and set prefered values
+
+<img height="auto" width="50%" src="https://github.com/Nevah5/DockerMonitoring/raw/images/7.png" alt="those options">
+
++ Add every Host that hosts the postgres database to "Explicit Hosts"
++ Re-run a Full Service Scan on the host the database is on
+
+--------------------------
 ### Monitor Postgres Database with this container
 + Make sure you downloaded [psql] on **default location** (version 14.1 as of current time)
 + Only install the Command Line Tools!
