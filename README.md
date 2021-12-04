@@ -1,6 +1,5 @@
 # Monitoring with Checkmk and Docker
 
---------------------------------
 ## Overview
 - Errors
     - ["Pool overlaps with other one on this adress space"](https://github.com/nevah5/dockerMonitoring/#error-pool-overlaps-with-other-one-on-this-address-space)
