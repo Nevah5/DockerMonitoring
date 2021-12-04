@@ -8,8 +8,8 @@
     - [Build Container](https://github.com/nevah5/dockerMonitoring/#build-container)
 - Monitoring
     - [Add hosts](https://github.com/nevah5/dockerMonitoring/#add-host-system-to-monitoring)
-    - [Add a monitoring rule](https://github.com/nevah5/dockerMonitoring/#add-host-system-to-monitoring)
-    - [Monitor Postgres database](https://github.com/nevah5/dockerMonitoring/#add-host-system-to-monitoring)
+    - [Add a monitoring rule](https://github.com/nevah5/dockerMonitoring/#add-a-monitoring-rule-for-postgres)
+    - [Monitor Postgres database](https://github.com/nevah5/dockerMonitoring/#monitor-postgres-database-with-this-container)
 - Other
     - [Bash access](https://github.com/nevah5/dockerMonitoring/#bash-access)
     - [Database access](https://github.com/nevah5/dockerMonitoring/#database-access)
